@@ -1,0 +1,69 @@
+#keyboard {
+   border: 2px solid rgb(3, 3, 68);
+   padding: 5px 15px;
+}
+textarea {
+   width: 902px;
+   height: 250px;
+   padding: 50px;
+}
+h1 {
+   font-family: monospace;
+   color: rgb(3, 3, 68);
+   text-align: center;
+}
+
+.container {
+   max-width: 1002px;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+.k-key {
+   width: 50px;
+   height: 50px;
+   border: 1px solid rgb(3, 3, 68);
+   margin: 3px;
+   padding: 3px;
+   display: inline-block;
+   text-align: center;
+}
+
+.s-key {
+   background-color: rgb(190, 91, 91);
+   font-weight: 800;
+}
+.arr-key {
+   background-color: rgb(59, 163, 33);
+}
+
+.active {
+   background-color: rgb(3, 3, 68);
+   color: white;
+   border-radius: 50%;
+}
+
+
+#ShiftLeft,
+#ShiftRight,
+#Enter,
+#CapsLock,
+#Backspace {
+   width: 114px;
+}
+
+#ControlLeft,
+#MetaLeft,
+#AltLeft,
+#AltRight,
+#ControlRight {
+   width: 62px;
+}
+
+#Space {
+   width: 313px;
+}
+
+.itPress {
+   background-color: rgb(221, 23, 23);
+}
